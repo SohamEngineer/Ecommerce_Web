@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+.about-container {
+    background: #000; /* Black background for a spooky vibe */
+    color: #fff; /* White text for contrast */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-title {
+    color: orange; /* Halloween orange accent */
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+  
+  .about-heading {
+    font-family: "Creepster", cursive; /* Spooky font */
+    font-size: 60px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .about-left,
+  .about-right {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    /* padding: 100px; */
+  }
+  
+  .about-left {
+    font-family: "Creepster", cursive; /* Spooky font */
+    font-size: 60px;
+    text-transform: uppercase;
+    color: orange; /* Bold statement in orange */
+  }
+  
+  .about-right p {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #ddd; /* Softer white for readability */
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .about-left,
+  .about-right {
+      text-align: center;
+    }
+  }
+  .Title{
+    font-size: 50px;
+    font-family: 'Creepster', cursive;
+    text-align: left;
+    
+  }
+  
+  

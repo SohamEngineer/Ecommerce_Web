@@ -1,0 +1,111 @@
+/* Contact Us Container */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+.contact-container {
+  background-image: url('https://websitedemos.net/halloween-shop-04/wp-content/uploads/sites/1398/2023/09/BG-4.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Overlay for readability */
+.contact-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  padding: 3rem;
+  max-width: 600px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  background-color: transparent;
+}
+.cont{
+  font-size: 70px;
+  font-family: 'Creepster', cursive;
+  font-weight: 400;
+  color: #ddd;
+}
+
+/* Heading and Description */
+.contact-heading {
+  font-size:15px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #f8b400;
+}
+
+.contact-description {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+/* Form and Inputs */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #f8b400;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 5px #f8b400;
+}
+
+textarea {
+  resize: none;
+  height: 150px;
+}
+
+/* Error Messages */
+.error {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* Button */
+.contact-button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #f8b400;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-button:hover {
+  background: #e59500;
+}
